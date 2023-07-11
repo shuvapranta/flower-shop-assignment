@@ -153,3 +153,12 @@ header {
   line-height: 30px;
   margin-bottom: 24px;
 }
+/* Instagram style start */
+.instagram{
+    margin: 128px 240px;
+}
+.instagram-img-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
