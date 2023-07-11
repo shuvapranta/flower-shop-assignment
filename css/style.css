@@ -1,102 +1,125 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 /* common shared style */
-body{
-    font-family: 'Lato', sans-serif;
+body {
+  font-family: "Lato", sans-serif;
 }
-.section-title h4{
-    color: #272727;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
+.section-title h4 {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
 }
-.section-title p{
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    width: 594px;
-    margin: 24px auto 48px;
+.section-title p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 594px;
+  margin: 24px auto 48px;
 }
 /* banner style start */
-header{
-    height: 850px;
-    padding: 0 240px 0 ;
-    background: rgba(229, 84, 115, 0.10);
+header {
+  height: 850px;
+  padding: 0 240px 0;
+  background: rgba(229, 84, 115, 0.1);
 }
 
-.banner-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.banner-description h2{
-    width: 708px;
-    color: #272727;
-    font-size: 80px;
-    font-weight: 800;
+.banner-description h2 {
+  width: 708px;
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
 }
-.banner-description p{
-    width: 634px;
-    margin: 32px 0;
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
+.banner-description p {
+  width: 634px;
+  margin: 32px 0;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
-.banner-img{
-    padding-top: 50px;
+.banner-img {
+  padding-top: 50px;
 }
-.banner-description button{
-    border: none;
-    border-radius: 8px;
-    background: #E55473;
-    padding: 20px 43px;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
+.banner-description button {
+  border: none;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
 }
 /* Our feature style start */
-.feature{
-    padding: 178px 240px 0;
+.feature {
+  padding: 178px 240px 0;
 }
-.features-item-container{
-    display: flex;
-    justify-content: space-around;
-
+.features-item-container {
+  display: flex;
+  justify-content: space-around;
 }
-.feature-item1 img{
-    width: 350px;
-    height: 500px; 
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    padding: 71px 40px 0;
+.feature-item1 img {
+  width: 350px;
+  height: 500px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 71px 40px 0;
 }
-.feature-item2 img{
-    width: 350px;
-    height: 500px; 
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
-    padding: 71px 40px 0;
+.feature-item2 img {
+  width: 350px;
+  height: 500px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  padding: 71px 40px 0;
 }
-.feature-item3 img{
-    width: 350px;
-    height: 500px; 
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
-    padding: 71px 40px 0;
+.feature-item3 img {
+  width: 350px;
+  height: 500px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  padding: 71px 40px 0;
 }
-.flower-tree{
-    margin-top: 32px;
-    color: #272727;
-    text-align: center;
-    font-family: Lato;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 35px;
-    text-decoration-line: underline;
+.flower-tree {
+  margin-top: 32px;
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+.service {
+  padding: 130px 240px;
+}
+.service_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 86px 175px;
+}
+.service-items {
+  text-align: center;
+}
+.service-items img {
+  width: 88px;
+  height: 88px;
+}
+.service-items p {
+  margin-top: 20px;
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
 }
