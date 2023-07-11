@@ -162,6 +162,42 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+/* Testimonials style start */
+.testimonial{
+    background: rgba(39, 39, 39, 0.05);
+    padding: 128px 240px;
+    margin-bottom: 128px;
+}
+.testimonial-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonial-info{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #8b7575;
+    border-radius: 8px;
+    margin-top:48px;
+}
+.testimonial-info img {
+  width: 100px;
+  height: 100px;
+}
+.testimonial-info p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+.testimonial-info .name{
+    color: #000;
+    font-size: 24px;
+    font-weight: 800;
+}
+/* The latest deal start */
 .latest-deal {
   margin: 0 240px 128px;
   background-image: url("../images/Rectangle\ 9.png");
@@ -197,11 +233,11 @@ form {
   color: #fff;
 }
 .footer_content .section-title span {
-  color: #E55473;
+  color: #e55473;
 }
-.footer_content .section-title p{
-    color: rgba(255, 255, 255, 0.90);
+.footer_content .section-title p {
+  color: rgba(255, 255, 255, 0.9);
 }
-.footer_content .section-title .copyright{
-    color: rgba(255, 255, 255, 0.40);
+.footer_content .section-title .copyright {
+  color: rgba(255, 255, 255, 0.4);
 }
