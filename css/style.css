@@ -184,3 +184,24 @@ form {
   border-radius: 5px;
   margin-right: 10px;
 }
+/* footer style start */
+.footer {
+  background: #111010;
+}
+.footer_content {
+  padding: 128px 0;
+}
+.footer_content .section-title h4 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #fff;
+}
+.footer_content .section-title span {
+  color: #E55473;
+}
+.footer_content .section-title p{
+    color: rgba(255, 255, 255, 0.90);
+}
+.footer_content .section-title .copyright{
+    color: rgba(255, 255, 255, 0.40);
+}
