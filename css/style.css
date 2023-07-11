@@ -22,14 +22,14 @@ body {
   margin: 24px auto 48px;
 }
 .btn {
-    border: none;
-    border-radius: 8px;
-    background: #e55473;
-    padding: 20px 43px;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
-  }
+  border: none;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
 /* banner style start */
 header {
   height: 850px;
@@ -154,11 +154,33 @@ header {
   margin-bottom: 24px;
 }
 /* Instagram style start */
-.instagram{
-    margin: 128px 240px;
+.instagram {
+  margin: 128px 240px;
 }
-.instagram-img-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.instagram-img-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.latest-deal {
+  margin: 0 240px 128px;
+  background-image: url("../images/Rectangle\ 9.png");
+  background-size: cover;
+  background-position: center;
+  height: 449px;
+}
+.latest-deal-container .section-title {
+  padding: 122px 0 0;
+}
+form {
+  text-align: center;
+}
+.text_area {
+  padding: 22px 513px 22px 22px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
 }
